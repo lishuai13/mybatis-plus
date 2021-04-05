@@ -50,7 +50,7 @@ class MybatisPlusApplicationTests {
 
     @Test
     void selectList(){
-        //QueryWrapper用来设置逻辑
+        //QueryWrapper用来设置逻辑判断
         QueryWrapper queryWrapper = new QueryWrapper();
         //条件查询,name等于Jack
 //        queryWrapper.eq("name","Jack");
